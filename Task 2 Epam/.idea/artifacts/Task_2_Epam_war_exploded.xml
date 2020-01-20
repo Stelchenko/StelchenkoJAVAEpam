@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Task 2 Epam:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Task_2_Epam_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Task 2 Epam/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Task 2 Epam" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
