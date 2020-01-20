@@ -6,3 +6,7 @@ window.onload = function(){
         window.setTimeout(arguments.callee, 1000);
     })();
 };
+
+function SubMenu(num){
+    document.getElementById("text").innerHTML = "submenu " + num;
+}
