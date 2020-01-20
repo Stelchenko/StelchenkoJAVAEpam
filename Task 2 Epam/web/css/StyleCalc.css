@@ -1,0 +1,17 @@
+.tableCalc{
+    border: 1px solid gray;
+    margin: 100px 500px;
+    padding: 0px;
+    width: 250px;
+    text-align: center;
+}
+
+.tableCalc input{
+    border: 1px solid gray;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+#edit {
+    width: 250px;
+}
