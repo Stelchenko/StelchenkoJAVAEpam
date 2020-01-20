@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StelchenkoCalc</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form name="calc" id="Calc" action="">
+    <table class="tableCalc" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="5" align="middle">
+                <input disabled id="edit" name="Edit" type="Text" size="28" value="0" width="250">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td><input name="buttonClear" type="button" value="C" onclick="ClearFunc()"></td>
+            <td><input name="buttonClearEntry" type="button" onclick="ClearEntryFunc()" value="CE"></td>
+        </tr>
+        <tr>
+            <td><input name="buttonSeven" type="button" value="7" onclick="NumFunc(7)"></td>
+            <td><input name="buttonEight" type="button" value="8" onclick="NumFunc(8)"></td>
+            <td><input name="buttonNine" type="button" value="9" onclick="NumFunc(9)"></td>
+            <td><input name="buttonPlus" type="button" value="+" onclick="OperationFunc('+')"></td>
+            <td><input name="buttonMinus" type="button" value="-" onclick="OperationFunc('-')"></td>
+        </tr>
+        <tr>
+            <td><input name="buttonFour" type="button" value="4" onclick="NumFunc(4)"></td>
+            <td><input name="buttonFive" type="button" value="5" onclick="NumFunc(5)"></td>
+            <td><input name="buttonSix" type="button" value="6" onclick="NumFunc(6)"></td>
+            <td><input name="buttonMultyply" type="button" value="*" onclick="OperationFunc('*')"></td>
+            <td><input name="buttonDivide" type="button" value="/" onclick="OperationFunc('/')"></td>
+        </tr>
+        <tr>
+            <td><input name="buttonOne" type="button" value="1" onclick="NumFunc(1)"></td>
+            <td><input name="buttonTwo" type="button" value="2" onclick="NumFunc(2)"></td>
+            <td><input name="buttonThree" type="button" value="3" onclick="NumFunc(3)"></td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td><input name="buttonZero" type="button" value="0" onclick="NumFunc(0)"></td>
+            <td colspan="1"></td>
+            <td colspan="2"><input name="buttonEquals" type="button" value="=" onclick="OperationFunc('=')"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
