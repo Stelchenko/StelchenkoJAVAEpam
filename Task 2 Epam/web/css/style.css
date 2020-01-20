@@ -21,7 +21,7 @@ nav a {
 .topmenu > li > a {
     height: 70px;
     line-height: 70px;
-    padding: 0 30px;
+    padding: 0 150px;
     font-weight: bold;
     color: #003559;
     text-transform: uppercase;
@@ -31,8 +31,8 @@ nav a {
 .submenu {
     background: white;
     border: 2px solid #003559;
-    position: absolute;
-    left: 0;
+    position:  absolute;
+    left: 80px;
     visibility: hidden;
     opacity: 0;
 
